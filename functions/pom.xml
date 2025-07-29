@@ -22,11 +22,15 @@
     <spock.version>${spock.version.major}-groovy-${spock.version.groovyVariant}</spock.version>
     <junit.version>5.12.2</junit.version>
     <functionTargetClass>gwc.GFunctionExecutor</functionTargetClass>
+
+    <spring.boot.version>3.5.0</spring.boot.version>
   </properties>
 
   <modules>
-   <module>groovy-executor</module>
-   <module>github-access</module>
+    <module>groovy-script-app</module>
+    <module>groovy-executor</module>
+    <module>groovy-executor-app</module>
+    <module>github-access</module>
   </modules>
 
   <dependencyManagement>
