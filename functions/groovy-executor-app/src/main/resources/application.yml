@@ -3,4 +3,4 @@ server:
 
 spring:
   application:
-    name: springboot-gcf-host
+    name: groovy-executor-app
